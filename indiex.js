@@ -54,6 +54,10 @@ function clicar()
 }
 else {
    alert("Informe um valor válido");
+   document.querySelector(".inp1").value = '';
+   document.querySelector(".inp2").value = '';
+   document.querySelector(".inp3").value = '';
+   document.querySelector(".dis").innerHTML = 'Operação'
 }
 }
 
